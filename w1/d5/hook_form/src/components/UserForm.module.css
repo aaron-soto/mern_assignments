@@ -1,0 +1,28 @@
+.form {
+  width: 600px;
+  margin: 100px auto 0 auto;
+  padding: 40px;
+}
+.formRow {
+  margin-bottom: 24px;
+  display: flex;
+  background-color: #f7f7f7;
+  padding: 16px;
+  border-radius: 4px;
+}
+.formInput {
+  margin-left: auto;
+  width: 300px;
+}
+.usersInfo {
+  width: 600px;
+  padding: 40px;
+  margin: 0 auto;
+}
+.userInfoRow {
+  margin-bottom: 16px;
+  display: flex;
+}
+.userInfoLabel {
+  width: 150px;
+}
