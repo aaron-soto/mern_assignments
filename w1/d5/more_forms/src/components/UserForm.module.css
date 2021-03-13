@@ -1,0 +1,58 @@
+.form {
+  width: 600px;
+  margin: 100px auto 0 auto;
+}
+.formRow {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border-radius: 4px;
+  height: 60px;
+  position: relative;
+}
+.formInput {
+  float: right;
+  width: 350px;
+  border-radius: 5px;
+  border: 2px solid #aaa;
+  font-size: 16px;
+  padding: 5px;
+}
+.formFieldLabel {
+  float: left;
+}
+.inputGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.errorMessage {
+  position: absolute;
+  bottom: 8px;
+  left: 240px;
+  width: auto;
+  color: red;
+  margin: 0;
+  font-size: 14px;
+}
+.submitBtn {
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+/* User section */
+.usersInfo {
+  width: 600px;
+  padding: 40px;
+  margin: 0 auto;
+}
+.userInfoRow {
+  margin-bottom: 16px;
+  display: flex;
+}
+.userInfoLabel {
+  width: 150px;
+}
